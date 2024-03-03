@@ -48,3 +48,4 @@ fn main() {
 
 References:
 * https://www.rust-lang.org/learn/get-started
+* https://doc.rust-lang.org/rust-by-example/primitives.html
