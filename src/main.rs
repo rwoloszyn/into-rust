@@ -1,12 +1,15 @@
 
 
 fn main() {
-    let guess1:i32 = "42".parse().expect("Not a number!");
-    println!("{:?}", guess1);
+    let number = 1232;
 
-    let guess2:f32 = "42.22".parse().expect("Not a number!");
-    println!("{:?}", guess2);
-
-    let guess3:u32 = "Test".parse().expect("Not a number!");
-    println!("{:?}", guess3);
+    if number % 4 == 0 {
+        println!("number is divisible by 4");
+    } else if number % 3 == 0 {
+        println!("number is divisible by 3");
+    } else if number % 2 == 0 {
+        println!("number is divisible by 2");
+    } else {
+        println!("number is not divisible by 4, 3, or 2");
+    }
 }
