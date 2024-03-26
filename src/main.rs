@@ -1,11 +1,10 @@
 fn main(){
-    let server = HttpServer::new("127.0.0.0:8080");
+    let server = HttpServer::new("127.0.0.0:8080".to_string());
     server.run()
 }
 
 struct HttpServer {
-    addr: String,
-
+    addr: String
 }
 
 impl HttpServer {
